@@ -1,19 +1,23 @@
 <template>
   <div class="music-player w-100 d-flex flex-column border bg-white">
-    <div class="music-player__header">
-
-    </div>
-    <div class="music-player__main p-4">
-      <h5 class="music-player__title">When you look me in the eyes</h5>
-      <p class="music-player__singer">Jonas Brother</p>
-      <div class="music-player__control mt-5 d-flex">
-        <div class="music-player__btn d-flex align-items-center">
+    <div class="header"></div>
+    <div class="main p-4">
+      <h5 class="title">When you look me in the eyes</h5>
+      <p class="singer">Jonas Brother</p>
+      <div class="audio">
+        <audio class="w-100" controls>
+          <source src="../assets/when-you-look-me-in-the-eyes.mp3" type="audio/mp3">
+          Your browser does not support the audio element
+        </audio>
+      </div>
+      <div class="control mt-5 d-none">
+        <div class="btn d-flex align-items-center">
           <font-awesome-icon :icon="['fas', 'backward']" />
         </div>
-        <div class="music-player__btn play mx-4">
+        <div class="btn play">
           <font-awesome-icon :icon="['fas', 'play-circle']" />
         </div>
-        <div class="music-player__btn d-flex align-items-center">
+        <div class="btn d-flex align-items-center">
           <font-awesome-icon :icon="['fas', 'forward']" />
         </div>
       </div>
@@ -38,17 +42,19 @@ export default {
   overflow: hidden
   box-shadow: 0 0 2em rgba(53,89,135,0.2)
 
-  &__header
+  .main
+    padding: 38px
+
+  .header
     height: 200px
     background: url(https://images.pexels.com/photos/92080/pexels-photo-92080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat
     background-size: cover
     background-position: center
 
-  &__title
+  .title
     font-weight: 600
-    width: 80%
 
-  &__btn
+  .btn
     font-size: 2em
     cursor: pointer
 
