@@ -7,7 +7,7 @@
       <div class="audio">
         <audio class="w-100" controls>
           <source src="../assets/when-you-look-me-in-the-eyes.mp3" type="audio/mp3">
-          Your browser does not support the audio elements
+          Your browser does not support the audio
         </audio>
       </div>
       <div class="control mt-5 d-none">
