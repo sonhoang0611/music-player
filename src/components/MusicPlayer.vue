@@ -21,7 +21,7 @@
           <font-awesome-icon :icon="['fas', 'forward']" />
         </div>
       </div>
-    </div>
+    </div>a
   </div>
 </template>
 
