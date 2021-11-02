@@ -28,4 +28,4 @@ yarn run lint 1
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-test
+test2
