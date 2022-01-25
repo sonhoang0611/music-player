@@ -1,6 +1,6 @@
 # music-player
 
-## Project setup
+## Project setup ne
 ```
 yarn install
 ```
