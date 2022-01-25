@@ -1,6 +1,6 @@
 # music-player
 
-## Project setup ne
+## Project setup
 ```
 yarn install
 ```
@@ -28,4 +28,4 @@ yarn run lint 1
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-test123
+test1234
