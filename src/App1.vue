@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="d-flex justify-content-center align-items-center test">
+  <div id="app" class="d-flex justify-content-center align-items-center">
     <MusicPlayer />
   </div>
 </template>
